@@ -1,0 +1,120 @@
+/* Simple student-style CSS for the African Foods Company website */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff8e8;
+    color: #333333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #336c7e;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+    border-bottom: 7px solid #131312;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+header p {
+    margin-bottom: 0;
+    font-size: 17px;
+}
+
+nav {
+    background-color: #2795c4;
+    text-align: center;
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px 9px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffe082;
+    text-decoration: underline;
+}
+
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 25px auto;
+}
+
+section {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-left: 6px solid #3076b8;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px #00000012;
+}
+
+section h2 {
+    color: #228c9c;
+    margin-top: 0;
+}
+
+.welcome {
+    background-color: #e4f3df;
+    border-left-color: #4086e9;
+}
+
+.welcome h2 {
+    color: #008aed;
+}
+
+li {
+    margin-bottom: 7px;
+}
+
+.contact {
+    background-color: #fff0c2;
+    border-left-color: #000000;
+}
+
+.contact h2 {
+    color: #000000;
+}
+
+footer {
+    background-color: #255b85;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 5px;
+    font-size: 14px;
+}
+
+/* Makes the website easier to use on phones and smaller screens */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 25px;
+    }
+
+    nav a {
+        display: block;
+        margin: 8px;
+    }
+
+    main {
+        width: 94%;
+    }
+
+    section {
+        padding: 15px;
+    }
+}
